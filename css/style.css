@@ -1,0 +1,146 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #3E3E3E;
+  background-color: #ffffff;
+  font-size: 1.6rem;
+  
+}
+/*custom btn*/
+.btn-custom{
+    background-image: linear-gradient( #A4BC46, #85A019);
+    color: white;
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+.btn-custom:hover{
+    color: white;
+    
+}
+.btn-custom i{
+    color: white;
+    font-size: 1.4rem;
+    margin-right: 5px;
+    
+}
+.m-c{
+    margin-right: 1.5rem;
+}
+.bg-custom{
+    
+    
+    margin-top: 7px;
+    border-radius: 20px;
+    background-color: #F1F1F1;
+}
+.custom__heading{
+    font-size: 4.8rem;
+    color: #363958;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    text-transform: uppercase;
+
+}
+.text-custom{
+    color: #363958;
+    font-size: 2.4rem;
+}
+.custom-font{
+    font-size: 3.6rem;
+    color: #FABE4C;
+}
+.custom-round{
+    border-radius: 20px
+}
+/*custom margin*/
+.m-custom{
+    margin-top: 10.5rem;
+}
+.wrapper{
+    background-color: #FFFBF0;
+}
+.man{
+    margin-top: 8rem;
+}
+.img-container{
+    width: 334px;
+    height: 320px;
+    
+}
+.img-container img{
+    width: auto;
+    height: 269px;
+}
+.left img{
+    width: 80px;
+    height: 80px;
+    
+}
+.bg__global{
+    background-color: #E5E5E5;
+}
+/*                   ---------------------                */
+
+/*                   ---------------------                */
+/*navigation*/
+.nav-icon-img{
+    height: 4rem;
+}
+.nav-custom-bg{
+   
+}
+.useless__bg{
+    
+}
+.useless__bg img{
+    width: 150px;
+    position: absolute;
+    left: 41rem;
+    top: 0;
+    margin-top: -90px;
+}
+    /* Specificity */
+.navbar-light .navbar-nav .custom-nav-link,.navbar-light .navbar-nav .active > .custom-nav-link{ 
+    color: #3C3C3C;
+}
+    /*    nav toggle customization*/
+.custom-toggle{
+    width: 2rem;
+    height: 2rem;
+}
+/*                   ---------------------                */
+
+/*                   ---------------------                */
+/* hero */
+.hero{
+    
+}
+.hero__heading{
+    font-family: 'Bebas Neue', cursive;
+    color: #FABE4C;
+    font-size: 8rem;
+}
+.hero__heading span{
+    color: #363958;
+}
+.hero__title{
+    
+}
+.img-bottom{
+    width: 50rem;      
+}
+.mtop{
+    margin-top: 8rem;   
+}
