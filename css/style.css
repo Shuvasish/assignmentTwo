@@ -197,7 +197,9 @@ body {
     .custom__heading{
         font-size: 3rem;
     }
-    
+    .box-align-custom{
+        align-items: flex-start!important;
+    }
 }
 @media only screen and (max-width:767.98px){
     .m-custiom{
@@ -227,6 +229,12 @@ body {
     .custom__heading{
         text-align: center;
     }
+    .custom-box{
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 @media only screen and (max-width:575.98px){
     .m-custiom{
@@ -235,6 +243,10 @@ body {
     .bg-custom{
         display: none;
         margin-top: 12px;
+    }
+    .check{
+        
+        align-items: center;
     }
     
 }
