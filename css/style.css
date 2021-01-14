@@ -41,7 +41,7 @@ body {
 .bg-custom{
     
     
-    margin-top: 7px;
+    margin-top: 15px;
     border-radius: 20px;
     background-color: #F1F1F1;
 }
@@ -70,12 +70,13 @@ body {
 }
 .wrapper{
     background-color: #FFFBF0;
+    padding-bottom: 5rem;
 }
 .man{
     margin-top: 8rem;
 }
 .img-container{
-    width: 334px;
+    width: 315px;
     height: 320px;
     
 }
@@ -143,4 +144,46 @@ body {
 }
 .mtop{
     margin-top: 8rem;   
+}
+/*                       ------------media---------------              */
+@media only screen and (max-width:1199.98px){
+    .m-custiom{
+        
+    }
+    .m-c{
+        margin-bottom: 2rem;
+    }
+}
+@media only screen and (max-width:991.98px){
+    .m-custom{
+        margin-top: 5rem ;
+    }
+    .hero__heading{
+        font-size: 5rem;
+    }
+    .custom__heading{
+        font-size: 3rem;
+    }
+    
+}
+@media only screen and (max-width:767.98px){
+    .m-custiom{
+        
+    }
+    .bg-custom{
+        display: none;
+    }
+    .img-bottom{
+        margin-bottom: 3rem;
+    }
+}
+@media only screen and (max-width:575.98px){
+    .m-custiom{
+        margin-top: 1rem ;
+    }
+    .bg-custom{
+        display: none;
+        margin-top: 12px;
+    }
+    
 }
