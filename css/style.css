@@ -221,6 +221,9 @@ body {
     .fooer-portion  div{
         
     }
+    .mb-6{
+    margin-bottom: 2rem;
+}
 }
 @media only screen and (max-width:575.98px){
     .m-custiom{
