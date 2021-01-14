@@ -145,6 +145,38 @@ body {
 .mtop{
     margin-top: 8rem;   
 }
+
+.footer{
+    background-color: #ffffff;
+    padding: 4rem 0;
+    margin-top: 4rem;
+}
+.flag-size{
+    width: 60px;
+    height: 40px;
+}
+.flag-size img{
+    width: 50px;
+    
+}
+.icon-size {
+    
+}
+.icon-size i{
+    color: black;
+    font-size: 2rem;
+    transition: all .3s;
+}
+.icon-size i:hover{
+    color: gray;
+    cursor: pointer;
+    
+}
+.img-vr{
+    width: 90%;
+    
+}
+
 /*                       ------------media---------------              */
 @media only screen and (max-width:1199.98px){
     .m-custiom{
@@ -175,6 +207,18 @@ body {
     }
     .img-bottom{
         margin-bottom: 3rem;
+    }
+    .footer{
+        background: #ededed;
+    }
+    .footer-portion{
+        margin-bottom: 3rem;
+        background: #ffffff;
+        padding: 3rem;
+        border-radius: 5px;
+    }
+    .fooer-portion  div{
+        
     }
 }
 @media only screen and (max-width:575.98px){
